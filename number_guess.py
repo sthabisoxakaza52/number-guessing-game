@@ -11,7 +11,7 @@ def number_guessing_game():
         - "Too low!" if the guess is smaller than the target
         - "Correct!" if the guess matches the target
     """
-    secret_number = random.randint(1,100)
+    secret_number = random.randint(1,1000)
 
     print("  Welcome to the Number Guessing Game!  ")
 
@@ -25,7 +25,7 @@ def number_guessing_game():
     guess_count = 0
 
     while True:
-        user_input = input("Enter your guess (1 - 100)  or 'quit' to exit: ")
+        user_input = input("Enter your guess (1 - 1000)  or 'quit' to exit: ")
 
         if user_input.lower() == "quit":
             print(f"\nGame exited. The number was {secret_number}.")
