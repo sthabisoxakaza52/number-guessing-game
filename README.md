@@ -1,7 +1,7 @@
 ## Number Guessing Game 
 
 ## Description
-A simple Python game where the computer picks a random number between 1 and 100, and the player has to guess it. After each guess, the game gives feedback: 
+A simple Python game where the computer picks a random number between 1 and 1000, and the player has to guess it. After each guess, the game gives feedback: 
 "Too high"
 "Too low"
 "Correct!"
