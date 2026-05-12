@@ -12,7 +12,7 @@ This project demonstrates Python basics such as functions, loops, conditionals, 
 1. Run the game using Python:
 python number_guess.py
 
-2. The computer will pick a random number between 1 and 100.
+2. The computer will pick a random number between 1 and 1000.
 
 3. Enter your guesses when prompted.
 
@@ -21,7 +21,7 @@ python number_guess.py
 5. Feedback will be displayed after each guess.
 
 ## Features
-1. Random number generation between 1 and 100.
+1. Random number generation between 1 and 1000.
 
 2. Feedback for each guess: too high, too low  or correct
 
